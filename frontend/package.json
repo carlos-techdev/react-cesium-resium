@@ -1,0 +1,71 @@
+{
+  "name": "geo-project-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/material": "^5.14.16",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.18.1",
+    "axios": "^1.6.0",
+    "cesium": "^1.118.2",
+    "craco-cesium": "^1.2.0",
+    "dom-to-image": "^2.6.0",
+    "html2canvas": "^1.4.1",
+    "html2pdf": "^0.0.11",
+    "html2pdf.js": "^0.10.2",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^2.5.1",
+    "material-ui-color-picker": "^3.5.1",
+    "react": "^18.3.1",
+    "react-canvas-draw": "^1.2.1",
+    "react-dom": "^18.3.1",
+    "react-konva": "^18.2.10",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.8",
+    "react-to-pdf": "^1.0.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.2",
+    "resium": "^1.17.4",
+    "validator": "^13.11.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "postinstall": "symlink-dir node_modules/cesium/Build/Cesium public/cesium"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "symlink-dir": "^6.0.0"
+  },
+  "proxy": "http://127.0.0.1:8000"
+}
